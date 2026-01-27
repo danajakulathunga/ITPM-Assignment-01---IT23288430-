@@ -1,5 +1,5 @@
 
-# ITPM Assignment 1 – Singlish to Sinhala Automation Testing
+# ITPM Assignment 1 (IT23288430) – Singlish to Sinhala Automation Testing
 
 ## Project Overview
 This project automates functional and UI test scenarios for the SwiftTranslator
