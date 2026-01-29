@@ -7,25 +7,41 @@
 This project automates functional and UI test scenarios for the SwiftTranslator
 (Singlish to Sinhala) web application using Playwright.
 
+## Project Structure
+
+```
+IT23288430/
+├─ README.md
+├─ singlish-playwright/
+│  ├─ package.json
+│  ├─ playwright.config.js
+│  └─ tests/
+│     ├─ positive.singlishToSinhala.spec.js
+│     ├─ negative.singlishToSinhala.spec.js
+│     └─ ui.spec.js
+```
+
 ## Tools & Technologies
 
-- Node.js
+- Node.js (v18+ recommended)
 - Playwright
 - JavaScript
 
-## Setup Instructions
+## VS Code Run Instructions
 
-1. Install Node.js (v18+ recommended)
-2. Clone this repository
-3. Change the Directory: cd singlish-playwright
-4. Run: npm install
-5. Run tests using: npx playwright test
+1. Open the repository folder in VS Code.
+2. Open a terminal and change directory:
+   - `cd singlish-playwright`
+3. Install dependencies:
+   - `npm install`
+4. Run all tests:
+   - `npx playwright test`
 
 ## Test Files
 
-- singlish-playwright/tests/positive.singlishToSinhala.spec.js
-- singlish-playwright/tests/negative.singlishToSinhala.spec.js
-- singlish-playwright/tests/ui.spec.js
+- [singlish-playwright/tests/positive.singlishToSinhala.spec.js](singlish-playwright/tests/positive.singlishToSinhala.spec.js)
+- [singlish-playwright/tests/negative.singlishToSinhala.spec.js](singlish-playwright/tests/negative.singlishToSinhala.spec.js)
+- [singlish-playwright/tests/ui.spec.js](singlish-playwright/tests/ui.spec.js)
 
 ## Test Coverage
 
