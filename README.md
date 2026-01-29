@@ -11,7 +11,6 @@ This project automates functional and UI test scenarios for the SwiftTranslator
 
 ```
 IT23288430/
-├─ README.md
 ├─ singlish-playwright/
 │  ├─ package.json
 │  ├─ playwright.config.js
@@ -20,13 +19,23 @@ IT23288430/
 │     ├─ IT23288430_negative_ui.spec.ts
 |     ├─ IT23288430_positive_functional.spec.ts
 │     └─ IT23288430_positive_ui.spec.ts
+├─ IT23288430_GitHub_Link.txt
+├─ IT23288430_TestCases.xlsx
+├─ package-lock.json
+├─ package.json
+└─ README.md
 ```
 
 ## Tools & Technologies
 
 - Node.js (v18+ recommended)
-- Playwright
-- JavaScript
+- Playwright (end-to-end testing framework)
+- TypeScript (for test development)
+- JavaScript (for scripting and tests)
+- XLSX (Excel file generation for test documentation)
+- @types/node (TypeScript type definitions for Node.js)
+- HTML Reporter (Playwright built-in)
+- Modern browsers (Chromium, via Playwright)
 
 ## VS Code Run Instructions
 
@@ -40,12 +49,14 @@ IT23288430/
 
 ## Test Files
 
-- [singlish-playwright/tests/positive.singlishToSinhala.spec.js](singlish-playwright/tests/positive.singlishToSinhala.spec.js)
-- [singlish-playwright/tests/negative.singlishToSinhala.spec.js](singlish-playwright/tests/negative.singlishToSinhala.spec.js)
-- [singlish-playwright/tests/ui.spec.js](singlish-playwright/tests/ui.spec.js)
+- [singlish-playwright/tests/IT23288430_negative_functional.spec.ts](singlish-playwright/tests/IT23288430_negative_functional.spec.ts)
+- [singlish-playwright/tests/IT23288430_negative_ui.spec.ts](singlish-playwright/tests/IT23288430_negative_ui.spec.ts)
+- [singlish-playwright/tests/IT23288430_positive_functional.spec.ts](singlish-playwright/tests/IT23288430_positive_functional.spec.ts)
+- [singlish-playwright/tests/IT23288430_positive_ui.spec.ts](singlish-playwright/tests/IT23288430_positive_ui.spec.ts)
 
 ## Test Coverage
 
-- 24 Positive functional test cases
 - 10 Negative functional test cases
-- 1 UI-related test case (real-time output)
+- 3 Positive UI-related test case (real-time output)
+- 24 Positive functional test cases
+- 3 Negative UI-related test case (real-time output)
