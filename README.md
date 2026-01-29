@@ -16,9 +16,10 @@ IT23288430/
 │  ├─ package.json
 │  ├─ playwright.config.js
 │  └─ tests/
-│     ├─ positive.singlishToSinhala.spec.js
-│     ├─ negative.singlishToSinhala.spec.js
-│     └─ ui.spec.js
+│     ├─ IT23288430_negative_functional.spec.ts
+│     ├─ IT23288430_negative_ui.spec.ts
+|     ├─ IT23288430_positive_functional.spec.ts
+│     └─ IT23288430_positive_ui.spec.ts
 ```
 
 ## Tools & Technologies
