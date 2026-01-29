@@ -57,6 +57,6 @@ IT23288430/
 ## Test Coverage
 
 - 10 Negative functional test cases
-- 3 Positive UI-related test case (real-time output)
+- 03 Positive UI-related test case (real-time output)
 - 24 Positive functional test cases
-- 3 Negative UI-related test case (real-time output)
+- 03 Negative UI-related test case (real-time output)
