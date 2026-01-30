@@ -29,6 +29,42 @@ IT23288430/
 └─ README.md
 ```
 
+## VS Code Run Instructions
+
+1. Open the repository folder in VS Code.
+2. Open a terminal and navigate to the test project:
+
+   ```sh
+   cd singlish-playwright
+   ```
+
+3. Ensure Node.js is installed:
+
+   ```sh
+   node -v
+   npm -v
+   ```
+
+   If Node.js is not installed, download and install it from [https://nodejs.org/](https://nodejs.org/).
+
+4. Install dependencies:
+
+   ```sh
+   npm install
+   ```
+
+5. Run all tests:
+
+   ```sh
+   npx playwright test
+   ```
+
+6. To view the HTML report after running tests:
+
+   ```sh
+   npx playwright show-report
+   ```
+
 ---
 
 ## Tools & Technologies
@@ -48,9 +84,11 @@ IT23288430/
 
 1. Open the repository folder in VS Code.
 2. Open a terminal and navigate to the test project:
+
    ```sh
    cd singlish-playwright
    ```
+
 3. Ensure Node.js is installed:
 
    ```sh
@@ -61,14 +99,19 @@ IT23288430/
    If Node.js is not installed, download and install it from [https://nodejs.org/](https://nodejs.org/).
 
 4. Install dependencies:
+
    ```sh
    npm install
    ```
+
 5. Run all tests:
+
    ```sh
    npx playwright test
    ```
+
 6. To view the HTML report after running tests:
+
    ```sh
    npx playwright show-report
    ```
