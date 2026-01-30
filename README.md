@@ -51,13 +51,26 @@ IT23288430/
    ```sh
    cd singlish-playwright
    ```
-3. Install dependencies:
+3. Ensure Node.js is installed:
+
+   ```sh
+   node -v
+   npm -v
+   ```
+
+   If Node.js is not installed, download and install it from [https://nodejs.org/](https://nodejs.org/).
+
+4. Install dependencies:
    ```sh
    npm install
    ```
-4. Run all tests:
+5. Run all tests:
    ```sh
    npx playwright test
+   ```
+6. To view the HTML report after running tests:
+   ```sh
+   npx playwright show-report
    ```
 
 ---
