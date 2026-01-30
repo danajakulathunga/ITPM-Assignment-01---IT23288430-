@@ -3,26 +3,26 @@ import { test, expect } from "@playwright/test";
 const testCases = [
   {
     id: "Neg_Fun_0001",
-    name: "Empty input",
-    input: "",
+    name: "Mixed symbols",
+    input: "mama ! arinawa",
     expected: "something-wrong",
   },
   {
     id: "Neg_Fun_0002",
-    name: "Random symbols",
-    input: "*%$#@!",
-    expected: "something-wrong",
-  },
-  {
-    id: "Neg_Fun_0003",
     name: "Numbers only",
     input: "288430",
     expected: "something-wrong",
   },
   {
+    id: "Neg_Fun_0003",
+    name: "Special chars",
+    input: "%*!@#^&$()",
+    expected: "something-wrong",
+  },
+  {
     id: "Neg_Fun_0004",
-    name: "English only",
-    input: "Hello baby",
+    name: "Empty input",
+    input: "",
     expected: "something-wrong",
   },
   {
@@ -33,14 +33,14 @@ const testCases = [
   },
   {
     id: "Neg_Fun_0006",
-    name: "Slang input",
-    input: "thx dear",
+    name: "Gibberish",
+    input: "alrfier",
     expected: "something-wrong",
   },
   {
     id: "Neg_Fun_0007",
-    name: "Mixed symbols",
-    input: "mama ! arinawa",
+    name: "English only",
+    input: "Hello baby",
     expected: "something-wrong",
   },
   {
@@ -51,14 +51,14 @@ const testCases = [
   },
   {
     id: "Neg_Fun_0009",
-    name: "Gibberish",
-    input: "alrfier",
+    name: "Random symbols",
+    input: "*%$#@!",
     expected: "something-wrong",
   },
   {
     id: "Neg_Fun_0010",
-    name: "Special chars",
-    input: "%*!@#^&$()",
+    name: "Slang input",
+    input: "thx dear",
     expected: "something-wrong",
   },
 ];

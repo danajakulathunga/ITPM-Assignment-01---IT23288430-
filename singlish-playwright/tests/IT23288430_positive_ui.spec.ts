@@ -3,15 +3,15 @@ import { test, expect } from "@playwright/test";
 const testCases = [
   {
     id: "Pos_UI_0001",
-    name: "Real-time conversion",
-    input: "mama pansalata enavaa",
-    expected: "මම පන්සලට එනවා",
-  },
-  {
-    id: "Pos_UI_0002",
     name: "Clear input",
     input: "mama kiri bonavaa",
     expected: "",
+  },
+  {
+    id: "Pos_UI_0002",
+    name: "Real-time conversion",
+    input: "mama pansalata enavaa",
+    expected: "මම පන්සලට එනවා",
   },
   {
     id: "Pos_UI_0003",
