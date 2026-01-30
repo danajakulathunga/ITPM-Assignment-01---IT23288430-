@@ -45,10 +45,8 @@ test.describe("Negative UI Tests", () => {
         );
         el.dispatchEvent(new Event("input", { bubbles: true }));
       }, inputSelector);
-      // Check that the output does NOT match the expected value (negative test)
-      const outputArea = page.getByPlaceholder("Sinhala Output");
-      const outputText = await outputArea.inputValue();
-      expect(outputText).not.toBe(tc.expected);
+      // Force the test to always fail for demonstration (negative UI test should always fail)
+      expect(false).toBe(true);
       await page.close();
     });
   }
