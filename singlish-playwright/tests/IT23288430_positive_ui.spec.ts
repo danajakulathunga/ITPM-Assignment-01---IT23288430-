@@ -47,7 +47,7 @@ test.describe("Positive UI Tests", () => {
       }, inputSelector);
 
       // Special handling for the Clear-input UI test
-      if (tc.id === "Pos_UI_0002") {
+      if (tc.id === "Pos_UI_0001") {
         const clearLocator = page.getByRole("button", { name: /clear/i });
         const clearButton = clearLocator.first();
         if (await clearButton.isVisible()) {
